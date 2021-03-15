@@ -1,5 +1,6 @@
 package pollub.ism.myapplication;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -8,6 +9,9 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity2 extends AppCompatActivity {
+
+    public static int KOD_PROSBY = 124;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,5 +43,8 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
-
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
 }

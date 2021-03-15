@@ -52,6 +52,7 @@
         android:layout_height="57dp"
         android:layout_marginStart="75dp"
         android:layout_marginTop="8dp"
+        android:onClick="powrot"
         android:text="@string/wroc_do_glownej"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/przyciskStronaWWW" />
